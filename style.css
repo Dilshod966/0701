@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 15px 30px;
+}
+
+.logo {
+  color: orange;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+.profil {
+  color: rgb(236, 158, 13);
+}
