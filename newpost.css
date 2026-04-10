@@ -1,0 +1,46 @@
+.new_post {
+    width: 400px;
+    background: rgb(36, 34, 34);
+    color:white;
+    padding: 20px;
+    border-radius: 15px;  
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: orange;
+}
+
+.new_post h2 {
+    color: orange;
+}
+
+.new_post span {
+    color: rgb(78, 217, 78);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    background-color: rgb(36, 34, 34);
+}
+
+button {
+    width: 100%;
+    background: rgb(78, 217, 78);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
