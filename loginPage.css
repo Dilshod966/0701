@@ -63,12 +63,12 @@ input {
 }
 
 .btn-login {
-  background: orange;
+  background: rgb(255, 167, 3);
   color: black;
   font-weight: bold;
 }
 
 .btn-register {
   background: #2a2a2a;
-  color: white;
+  color: rgb(252, 252, 252);
 }
