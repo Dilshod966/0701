@@ -1,203 +1,107 @@
 <!DOCTYPE html>
 <html lang="uz">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buyurtmalar Sahifasi</title>
-    <style>
-        /* Umumiy fon va shrift sozlamalari */
-        body {
-            background-color: #0d0d0d; /* To'q qora fon */
-            color: #ffffff;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            justify-content: center;
-        }
-
-        .container {
-            width: 150%;
-            max-width: 500px;
-        }
-
-        /* Bo'lim sarlavhalari stili */
-        .status-title {
-            font-size: 12px;
-            letter-spacing: 2px;
-            margin-bottom: 20px;
-            margin-top: 50px;
-            display: flex;
-            align-items: center;
-        }
-
-        .success { color: #2ecc71; } /* Yashil rang */
-        .danger { color: #e74c3c; }  /* Qizil rang */
-
-        /* Kartochka dizayni */
-        .card {
-            background-color: #1a1a1a; /* Kartochka foni */
-            border-radius: 12px;
-            padding: 15px;
-            margin-bottom: 15px;
-            border: 1px solid #262626;
-            transition: 0.3s;
-        }
-
-        .card:hover {
-            border-color: #333;
-        }
-
-        /* Foydalanuvchi qismi */
-        .user-header {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
-
-        .user-icon {
-            color: #a29bfe;
-            font-size: 18px;
-        }
-
-        .user-name {
-            font-weight: 500;
-            font-size: 15px;
-            color: #e0e0e0;
-        }
-
-        /* Detallar qismi (vaqt, narx, reyting) */
-        .details {
-            display: flex;
-            gap: 20px;
-            font-size: 13px;
-            color: #888;
-            margin-left: 28px;
-            margin-bottom: 8px;
-        }
-
-        .details span {
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-
-        /* Pastki qism */
-        .footer-info {
-            font-size: 12px;
-            color: #666;
-            margin-left: 28px;
-            display: flex;
-            align-items: center;
-            gap: 5px;
-        }
-
-        /* Rad etilgan kartochka uchun maxsus xira holat */
-        .rejected-card {
-            opacity: 0.7;
-        }
-    </style>
-</head>
-<body>
-
-<div class="container">
-    
-    <div class="status-title success">
-        <span style="margin-right: 8px;">■</span> BAJARILGAN ISHLAR
-    </div>
-
-    <div class="card">
-        <div class="user-header">
-            <span class="user-icon">👤</span>
-            <span class="user-name">Kamronbek Jumanazarov</span>
-        </div>
-        <div class="details">
-            <span>⏱ --</span>
-            <span>🔥 101 so'm</span>
-            <span>⭐ 5/5</span>
-        </div>
-        <div class="footer-info">🗂 Post qo'shilgan</div>
-    </div>
-
-    <div class="card">
-        <div class="user-header">
-            <span class="user-icon">👤</span>
-            <span class="user-name">Guli Bahodirov</span>
-        </div>
-        <div class="details">
-            <span>⏱ 1 daqiqa</span>
-            <span>🔥 395 so'm</span>
-            <span>⭐ 4/5</span>
-        </div>
-        <div class="footer-info">🗂 Post qo'shilgan</div>
-    </div>
-
-    <div class="status-title danger">
-        <span style="margin-right: 8px;">✖</span> RAD ETILGAN
-    </div>
-
-    <div class="card rejected-card">
-        <div class="user-header">
-            <span class="user-icon">👤</span>
-            <span class="user-name">Kamronbek Jumanazarov</span>
-        </div>
-        <div class="footer-info" style="color: #444;">M64 7</div>
-    </div>
-
-</div>
-
-</body>         
-</html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BuyurtmaPage</title>
-    <link rel="stylesheet" href="./buyurtma.css">
-</head>
-<body>
-
-    <h4>⚡Bajarilmoqda</h4>
-     <div class="box">
-    <p id="user"> 👤 Jasmina </p>
-
-    <h1 id="Timer" style="color: green;">00:00:00</h1>
-
-    <p id="money">0 so'm</p>
-     <div style="text-align: center">
-    <button style="background-color: orange; font-size: 25px; width: 300px; border-radius: 10px;">✅Ishni tugatdim</button>
-    </div>
-    </div>
-</body>
     <link rel="stylesheet" href="./buyurtmapage.css">
 </head>
 
 <body>
-  <header>
-  <div class="logo">MahallaBop</div>
-
-  <nav>
-    <a href="./HomePage.html">🏠 Bosh sahifa</a>
-    <a href="#">🗺 Xarita</a>
-    <a href="./BuyurtmaPage.html">📦 Buyurtmalar</a>
-    <a href="./ProfilePage.html" class="profil">👤 Profil</a>
-  </nav>
-</header>
-
     <div class="title">📥 YANGI BUYURTMALAR (1)</div>
 
-<div class="card">
-  <div class="user">👤,afchac kjbkjbkj</div>
-  <div class="time">MO4 8 10:57</div>
+    <div class="card">
+        <div class="user">👤,Jasmina</div>
+        <div class="time">MO4 8 10:57</div>
 
-  <div class="buttons">
-    <button class="button accept">✅Qabul qilish</button>
-    <button class="button reject">❌Rad etish</button>
-  </div>
-</div>
-    
+        <div class="buttons">
+            <button class="button accept">✅Qabul qilish</button>
+            <button class="button reject">❌Rad etish</button>
+        </div>
+    </div>
+    <div class="container">
+
+        <div class="status-title success">
+            <span style="margin-right: 8px;">■</span> BAJARILGAN ISHLAR
+        </div>
+
+        <div class="card">
+            <div class="user-header">
+                <span class="user-icon">👤</span>
+                <span class="user-name">Kamronbek Jumanazarov</span>
+            </div>
+            <div class="details">
+                <span>⏱ --</span>
+                <span>🔥 101 so'm</span>
+                <span>⭐ 5/5</span>
+            </div>
+            <div class="footer-info">🗂 Post qo'shilgan</div>
+        </div>
+
+        <div class="card">
+            <div class="user-header">
+                <span class="user-icon">👤</span>
+                <span class="user-name">Guli Bahodirov</span>
+            </div>
+            <div class="details">
+                <span>⏱ 1 daqiqa</span>
+                <span>🔥 395 so'm</span>
+                <span>⭐ 4/5</span>
+            </div>
+            <div class="footer-info">🗂 Post qo'shilgan</div>
+        </div>
+
+        <div class="status-title danger">
+            <span style="margin-right: 8px;">✖</span> RAD ETILGAN
+        </div>
+
+        <div class="card rejected-card">
+            <div class="user-header">
+                <span class="user-icon">👤</span>
+                <span class="user-name">Kamronbek Jumanazarov</span>
+            </div>
+            <div class="footer-info" style="color: #444;">M64 7</div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
+<body>
+
+    <h4>⚡Bajarilmoqda</h4>
+    <div class="box">
+        <p id="user"> 👤 Jasmina </p>
+
+        <h1 id="Timer" style="color: green;">00:00:00</h1>
+
+        <p id="money">0 so'm</p>
+        <div style="text-align: center">
+            <button style="background-color: orange; font-size: 25px; width: 300px; border-radius: 10px;">✅Ishni
+                tugatdim</button>
+        </div>
+    </div>
+</body>
+<link rel="stylesheet" href="./buyurtmapage.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">MahallaBop</div>
+
+        <nav>
+            <a href="./HomePage.html">🏠 Bosh sahifa</a>
+            <a href="#">🗺 Xarita</a>
+            <a href="./BuyurtmaPage.html">📦 Buyurtmalar</a>
+            <a href="./ProfilePage.html" class="profil">👤 Profil</a>
+        </nav>
+    </header>
+
+
+
 </body>
 
 </html>
