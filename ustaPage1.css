@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    margin: 0;
+    color: orange;
+    font-family: arial, sans-serif;
+       
+}
+.ota {
+    display: flex;
+    background-color: gray;
+    padding: 30px;
+  flex-direction: column;
+    border-radius: 20px;
+}
+
+    
+ 
+.continer {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #111;
+    color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+button {
+    padding: 10px 70px;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+}
+
+input, select {
+    background-color: gray;
+    color:  white;  
+}
+
+.main-contanier {
+    background-color: black;
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid #333;
+    width: 350px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.tittle {
+     color: #ffb400;
+     font-size: 18px;
+     text-align: center;
+     margin-bottom: 25px;
+     letter-spacing: 1px;
+}
+
+.photo-upload {
+    border: 2px dashed gray;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: gray;
+    cursor: pointer;
+
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+

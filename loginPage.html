@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MahallaBop login</title>
+     <link rel="stylesheet" href="./loginPage.css" />
+</head>
+
+<body>
+
+
+    <section>
+      <div>KIRISH🔒</div>
+        <div class=" ism shablon">
+            <label for="ism">ism</label>
+            <input type="text" id="ism" placeholder="name..." />
+            <div class="porol shablon">
+                <label for="porol">porol</label>
+                <input type="password"name="password" placeholder="porolingiz...">
+                <br>
+                <button type="submit"> Kirish</button><br>
+                <button type="submit">Ro`yxatdan o`tish</button>
+            </div>
+            
+    </section>
+    <script>
+        let ism;
+        let porol;
+
+        function saveName(a) {
+            if (a == 1) {
+                ism = document.getElementById("ism").value;
+                bosqich1.style.display = "none";
+                bosqich2.style.display = "flex";
+            }
+            if (a == 2) {
+                porol = document.getElementById("porol").value;
+                bosqich2.style.display = "none";
+                bosqich3.style.display = "flex";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
