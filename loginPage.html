@@ -1,50 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="./loginPage.css" />
+    <link rel="stylesheet" href="./loginPage.css" />
+
 </head>
-
 <body>
+<div class="title">MahallaBop</div>
+<div class="card">
+  <h2>🔐 KIRISH</h2>
 
+  <label>ISM</label>
+  <input type="text" placeholder="Ismingiz">
 
-    <section>
+  <label>PAROL</label>
+  <input type="password" placeholder="Parolingiz">
 
-        <div class=" ism shablon">
-            <label for="ism">ism</label>
-            <input type="text" id="ism" placeholder="name.." />
-            <div class="porol shablon">
-                <label for="porol">porol🔒</label>
-                <input type="password"name="password">
-                <br>
-                <button type="submit"> Kirish</button><br>
-                <button type="submit">Ro`yxatdan o`tish</button>
-            </div>
-            
-    </section>
-    <script>
-        let ism;
-        let fam;
-
-        function saveName(a) {
-            if (a == 1) {
-                ism = document.getElementById("ism").value;
-                bosqich1.style.display = "none";
-                bosqich2.style.display = "flex";
-            }
-            if (a == 2) {
-                porol = document.getElementById("porol").value;
-                bosqich2.style.display = "none";
-                bosqich3.style.display = "flex";
-            }
-        }
-    </script>
-
-
-
+  <button class="btn btn-login">Kirish</button>
+  <button class="btn btn-register">Ro'yxatdan o'tish</button>
+</div>
 </body>
-
 </html>
