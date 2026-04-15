@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <title>MahallaBop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Segoe UI", sans-serif;
+      }
+
+      body {
+        height: 100vh;
+        background: radial-gradient(circle at top, #2b0f05, #0b0b0b);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .konteyner {
+        width: 100%;
+        max-width: 420px;
+        padding: 20px;
+      }
+
+      .logo {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        color: orange;
+        margin-bottom: 10px;
+      }
+
+      .qoshimcha-matn {
+        text-align: center;
+        color: #aaa;
+        margin-bottom: 25px;
+        font-size: 14px;
+      }
+
+      .sarlavha {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .tavsif {
+        text-align: center;
+        font-size: 14px;
+        color: #ccc;
+        margin-bottom: 25px;
+      }
+
+      .karta {
+        background: #1a1a1a;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      }
+
+      .karta h2 {
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+
+      .kiritish-guruh {
+        margin-bottom: 15px;
+      }
+
+      .kiritish-guruh label {
+        font-size: 13px;
+        color: #bbb;
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .kiritish-guruh input,
+      .kiritish-guruh select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 6px;
+        border: none;
+        background: #2a2a2a;
+        color: white;
+      }
+
+      .kiritish-guruh input:focus,
+      .kiritish-guruh select:focus {
+        outline: 1px solid orange;
+      }
+
+      .tugma {
+        width: 100%;
+        padding: 12px;
+        background: orange;
+        border: none;
+        border-radius: 8px;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      .tugma:hover {
+        background: #ff9900;
+      }
+
+      .kirish-qismi {
+        text-align: center;
+        margin-top: 15px;
+      }
+
+      .kirish-qismi button {
+        background: none;
+        border: none;
+        color: #ccc;
+        cursor: pointer;
+      }
+
+      .kirish-qismi button:hover {
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="konteyner">
+      <div class="logo">MahallaBop</div>
+      <div class="qoshimcha-matn">Ozbekiston №1 mahalla platformasi</div>
+
+      <div class="sarlavha">
+        Ish topish yoki usta topish hech qachon bu qadar oson bolmagan!
+      </div>
+
+      <div class="tavsif">
+        Platformamizda minglab malakali ustalar mavjud. Bir necha daqiqada
+        royxatdan oting va boshlang!
+      </div>
+
+      <div class="karta">
+        <h2>Royxatdan otish</h2>
+
+        <form id="royxat-forma">
+          <div class="kiritish-guruh">
+            <label>Ismingiz</label>
+            <input type="text" placeholder="Ismingizni kiriting" required />
+          </div>
+
+          <div class="kiritish-guruh">
+            <label>Familiyangiz</label>
+            <input type="text" placeholder="Familiyangizni kiriting" required />
+          </div>
+
+          <div class="kiritish-guruh">
+            <label>📍Yashash joyingiz (tuman)</label>
+            <select>
+              <option>Yangiariq</option>
+              <option>Urganch</option>
+              <option>Xiva</option>
+              <option>Bog'ot</option>
+              <option>Shovot</option>
+              <option>Gurlan</option>
+              <option>Xonqa</option>
+              <option>Qo'shko'pir</option>
+              <option>Tuproqqal'a</option>
+              <option>Hazorosp</option>
+              <option>Yangibozor</option>
+              <option>Pitnak</option>
+            </select>
+          </div>
+
+          <div class="kiritish-guruh">
+            <label>Parol</label>
+            <input type="password" placeholder="Parol kiriting" required />
+          </div>
+
+          <a href="./changePage.html"><button class="tugma" type="button">✅Royxatdan otish</button></a>
+        </form>
+
+        <div class="kirish-qismi">
+          <button>
+            Hisobingiz bormi? <a href="./loginPage.html">Kirish</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
