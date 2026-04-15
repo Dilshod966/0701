@@ -7,29 +7,42 @@ body {
     height: 100vh;
 }
 
+.logo {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 900;
+    color: orange;
+    position: absolute;
+    top: 40px;
+    right: 45%;
+    
+}
+
 .bigblock {
-    width: 500px;
+    width: 540px;
     background-color: #1f1f1f;
     padding: 25px;
-    border-radius: 15px;
+    border-radius: 25px;
     color: white;
     box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
 }
 
 .ishturlari {
-    width: 130px;
+    width: 150px;
     height: 70px;
     padding: 8px;
     background-color: #333232;
     border-radius: 5px;
     text-align: center;
-
+    cursor: pointer;
+    font-size: 18px;
+    font-family: sans-serif;
 }
 
 .grid_uchun {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 10px;
 }
 
 .slider-box {
@@ -43,34 +56,38 @@ body {
 
 .input1 {
     border-radius: 10px;
-    height: 30px;
-    width: 490px;
+    height: 35px;
+    width: 530px;
     background-color: #333232;
 }
 
 textarea {
-    width: 100%;
+    width: 97%;
     height: 60px;
     border-radius: 5px;
     background-color: #333232;
     border: 1px solid #333;
 }
 
- h5 {
+h5 {
     display: block;
     margin-bottom: 8px;
     font-size: 14px;
 }
-.ortga{
-    width: 100px;
+
+.ortga {
+    width: 110px;
     height: 50px;
     border-radius: 10px;
     background-color: #333232;
+    margin-top: 10px;
 }
+
 .davom_etish {
-    width: 395px;
+    width: 415px;
     height: 50px;
     border-radius: 10px;
     background-color: orange;
     gap: 5px;
+    margin-top: 10px;
 }
